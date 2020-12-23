@@ -1,7 +1,10 @@
 library theme_module;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:theme_module/text_field.dart';
+
+class Themes {
+  textField() {
+    TextFormFieldThemes textFormFieldThemes = new TextFormFieldThemes();
+    return textFormFieldThemes;
+  }
 }
