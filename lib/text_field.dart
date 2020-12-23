@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class TextFormFieldThemes {
-  InputDecorationTheme textFieldTheme() {
-    return InputDecorationTheme(
+  InputDecoration textFieldTheme() {
+    return InputDecoration(
         border: InputBorder.none,
         enabledBorder:
             OutlineInputBorder(borderSide: BorderSide(color: Colors.black)));
